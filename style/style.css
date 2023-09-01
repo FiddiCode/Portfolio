@@ -476,10 +476,20 @@ section{
     }
 }
 
-@media (max-width:450px){
+@media (max-width:455px){
      html{
         font-size: 50%;
      }
+
+     .home-img img {
+        width: 72vw;
+        height: 49vh;
+    }
+
+    .about-image img {
+        width: 72vw;
+        height: 49vh;
+    }
 
      .contact form .input-box input {
         width: 100%;
@@ -494,7 +504,7 @@ section{
 
     .about-image img {
         width: 90vw;
-        height: 50vh;
+        height: 52vh;
     }
 
     .footer{
