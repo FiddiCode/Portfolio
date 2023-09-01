@@ -77,7 +77,6 @@ section{
 }
 
 .home-img img {
-    object-fit: cover;
     height: 69vh;
     width: 30vw;
     border-radius: 20%;
@@ -444,6 +443,7 @@ section{
 
         .home-img img{
             width: 70vw;
+            height: 80vh;
             margin-top: 4rem;
         }
  
@@ -453,6 +453,7 @@ section{
 
         .about img{
             width: 70vw;
+            height: 80vh;
             margin-top: 4rem;
         }
          
@@ -488,10 +489,12 @@ section{
 @media (max-width:365px){
     .home-img img {
         width: 90vw;
+        height: 50vh;
     }
 
     .about-image img {
         width: 90vw;
+        height: 50vh;
     }
 
     .footer{
