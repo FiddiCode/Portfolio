@@ -15,7 +15,7 @@ let navLinks=document.querySelectorAll('header nav a');
 console.log(sections);
 console.log(navLinks);
 
-window.onscroll=()=>{
+ window.onscroll=()=>{
     sections.forEach((sec) => {
         console.log(sec);
         let top=window.scrollY;
