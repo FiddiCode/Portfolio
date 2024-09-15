@@ -8,7 +8,7 @@ menuIcon.onclick=()=>{
 }
 
 
-// ===================scroll section active  navbar============ ======
+// ===================scroll section active   navbar============ ======
 
 let sections=  document.querySelectorAll('section');
 let navLinks=document.querySelectorAll('header nav a');
